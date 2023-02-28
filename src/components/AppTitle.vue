@@ -14,6 +14,6 @@
 
 <style>
     .title{
-        color: aqua;
+        color: rgb(167, 112, 80);
     }
 </style>

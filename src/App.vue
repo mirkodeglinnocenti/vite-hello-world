@@ -1,10 +1,13 @@
 <script>
 
 import AppTitle from './components/AppTitle.vue'
+import AppHero from './components/AppHero.vue'
+
 
 export default{
   components: {
     AppTitle,
+    AppHero,
   },
   data() {
     return {
@@ -21,7 +24,7 @@ export default{
 </script>
 
 <template>
-  <div>
+  <!-- <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
@@ -30,9 +33,12 @@ export default{
     </a>
   </div>
   <div>
-    <AppTitle></AppTitle>
     <h2 @click="sayHello">{{message}}</h2>
+  </div> -->
+  <div>
+    <AppHero></AppHero>
   </div>
+  <AppTitle></AppTitle>
 </template>
 
 <style scoped>

@@ -10,8 +10,11 @@
 
 <template>
     <div>
-        <img class="hero-img" src="../assets/img/Gollum.jpg" alt="">
-        <h2 class="hero-title">Lo sguardo della classe durante la lezione quando scopre Vite</h2>
+        <div class="hero">
+            <img class="hero-img" src="../assets/img/Gollum.jpg" alt="">
+            <h2 class="hero-title">Lo sguardo della classe durante la lezione quando scopre Vite</h2>
+        </div>
+        
     </div>
     
 </template>
@@ -19,8 +22,11 @@
 
 <style>
 
-    .hero-img{
+    .hero{
         position: relative;
+    }
+
+    .hero-img{
         width: 1000px;
     }
 
@@ -29,7 +35,7 @@
         font-size: 30px;
         margin: 0;
         position: absolute;
-        top: 50%;
+        top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
